@@ -1,18 +1,20 @@
-# Hi there 👋
+Hi there 👋
 
-Full-stack software engineer with public affairs background, bringing unique perspective on user needs and stakeholder management.
+Backend engineer specializing in Go, concurrency, and distributed
+systems — currently applying that base to security for AI
+(securing LLM/RAG/agentic systems). I build correct systems under
+constraint, and I'm extending that discipline to the AI layer.
 
-### Tech Stack
-🔧 **Languages & Core**
-- Python | TypeScript | JavaScript
+## Tech Stack
 
-🎯 **Specializations**
-- Backend: Django, Express, RESTful APIs, WebSocket, Database design (SQL/NoSQL)
-- Frontend: React, React Native, NodeJS, NextJS
-- Full-Stack integration: CI/CD
+**Core:** Go, PostgreSQL, Python
+**Distributed systems:** isolation levels, transactional retry
+logic, concurrent worker pools, property-based testing (`rapid`)
+**In progress:** securing agentic/RAG pipelines, prompt-injection
+defenses
 
-⚡ **Engineering Concepts**
-- System Design & Architecture
-- Test-Driven Development
-- Version control & Git workflow
-- OOP / SOLID principles
+## Featured
+
+🔗 [Sovereign Settlement Ledger](link) — settlement engine proving
+invariant correctness under concurrent load: write-skew reproduced
+and closed under Serializable isolation.
